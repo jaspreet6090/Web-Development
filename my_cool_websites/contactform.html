@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+
+</head>
+<body>
+    
+    <h1>Enter Your Details Below</h1>
+
+    <form action="" method="get" id="form1">
+
+        <label for="firstn">First Name</label>
+        <input id="firstn" name="firstn" value="" type="text" required>
+        <label for="lastn">Last Name</label>
+        <input id="lastn" name="lastn" value="" type="text" required>
+           <br>
+
+           <p>Gender</p>
+          <input type="radio" id="male" name="gender" required>
+          <label for="male">Male</label> 
+          <input type="radio" id="female" name="gender" required>
+          <label for="female">Female</label> 
+          
+          <br><br>
+
+         <label for="dob">Date Of Birth</label>
+         <input type="date" id="dob" required>
+
+         <br><br>
+
+        <label for="phone">Phone No.</label>
+        <input id="phone" type="number" required>
+        <label for="email">Email Id</label>
+        <input type="email" id="email" required>
+         
+        <br><br>
+        <label for="address">Address</label>
+       <textarea name="address" id="" cols="30" rows="" required></textarea>
+       <br>
+       <label for="pincode">Pincode</label>
+       <input type="number" name="pincode" id="oincode" required>
+       <br>
+       <!--personal details ended-->
+      <br>
+       <h2>Enter Your Card Details</h2>
+       <br>
+       <label for="cardn">Card Number</label>       
+       <input type="nummber" id="cardn" required>
+
+       <label for="cardtype">Card Type</label> 
+       <select name="type" id="cardtype" required > 
+             <option value="">select</option>
+       <option value="visa">Visa</option>
+       <option value="mastercard">Master card</option>
+       <option value="rupay">Rupay</option>       
+    </select>
+
+    <br><br>
+
+    <label for="doe">Expiry Date</label>
+    <input type="date" name="doe" id="doe" required>
+     <br><br>     
+    <label for="cvv">CVV</label>
+    <input type="password" id="cvv" required>
+
+    <!--payment deatils done-->
+
+    <br><br>
+    
+    <p>Want a copy of this ?
+        <input type="checkbox">
+    </p>
+
+          <button type="button" onclick="alert('Shukriya Dost')"> Click Me! </button>
+          <br><br>
+          <button type="reset" form="form1" value="reset">Reset</button>
+           <button type="submit" form="form1" value="submit">Submit</button>
+
+    </form>
+    
+</body>
+</html>

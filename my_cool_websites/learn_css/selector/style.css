@@ -1,0 +1,30 @@
+body{
+    font-size: 24px;
+    
+}
+h1:hover,.highlight:hover
+{
+    font-weight: 100;
+    color: brown;
+}
+.hover{
+    color: rgb(155, 223, 45);
+}
+#first, #second, #third{
+    color: red;
+}
+
+#second {
+    color: blue;
+}
+
+.purple {
+    color: purple;
+    /* font-family: monospace; */
+}
+
+.highlight {
+    background-color: rgb(235, 255, 16);
+    font-weight: bolder;
+    font-style: italic;
+}

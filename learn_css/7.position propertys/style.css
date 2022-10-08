@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(229, 239, 239);
+}
+
+.bar nav {
+  width: 100%;
+  height: 100px;
+  background-color: brown;
+}
+.content {
+    position: relative;
+    background-color: blueviolet;
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    word-spacing: 0.1rem;
+    line-height: 2rem;
+    /* border: 10px solid #f6decd; */
+    width: 700px;
+    height: fit-content;
+    padding: 20px;
+    margin-top: 70px;
+    margin-left: 14.700000000000063px;
+}
+
+.sidebar{
+    background-color: #219ebc;
+    width: 25%;
+    height: 500px;
+    position: absolute;
+    left: 75%;
+    /* top: 178px; */
+    position: sticky;
+    top:178px
+}
